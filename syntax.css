@@ -1,30 +1,20 @@
-.box {
-    padding: 20px;
-    margin: 20px;
-    float: left;
+.block {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #000;
+}
+.inline {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #000;
+    display: inline-block;
     
 }
-.dashed{
-border: 1px blue dashed;
-}
-.dotted{
-    border: 1px blue dotted;
-}
-.double{
-    border: 14px blue double;
-}
-.groove{
-    border: 14px blue groove;
-}
-.insert{
-    border: 14px blue inset;
-}
-.outset{
-    border: 14px blue outset;
-}
-.ridge{
-    border: 14px blue ridge;
-}
-.solid{
-    border: 1px blue solid;
+a {
+    padding: 10px;
+    margin: 10px;
+    background-color: darkgrey;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
 }
